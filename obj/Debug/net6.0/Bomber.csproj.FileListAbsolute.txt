@@ -1,0 +1,15 @@
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.csproj.AssemblyReference.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.AssemblyInfoInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.AssemblyInfo.cs
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.csproj.CoreCompileInputs.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\bin\Debug\net6.0\Bomber.exe
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\bin\Debug\net6.0\Bomber.deps.json
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\bin\Debug\net6.0\Bomber.runtimeconfig.json
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\bin\Debug\net6.0\Bomber.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\bin\Debug\net6.0\Bomber.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\refint\Bomber.dll
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.pdb
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\Bomber.genruntimeconfig.cache
+C:\Users\Herman\Desktop\Geekbrains_master\Bomber\obj\Debug\net6.0\ref\Bomber.dll
