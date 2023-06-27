@@ -1,4 +1,9 @@
-﻿/**namespace Server_In_Out
+﻿using System;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+
+/**namespace Server_In_Out
 {
     private class AllJpgs
     {
@@ -11,14 +16,23 @@
         }
     }
 }**/
-
-
-FileInfo existingFile = new FileInfo(@"./Try.txt");
-StreamReader newReader = existingFile.OpenText();
-while (newReader.ReadLine() != null)
+string pattern = @"([a-zA-Z]*:[\\[a-zA-Z0-9 .]*]*)";
+using (FileStream fs = File.OpenRead(@"./Try.txt"))
 {
-    Console.WriteLine(newReader.ReadLine());
+    byte[] b = new byte[1024];
+    UTF8Encoding temp = new UTF8Encoding(true);
+    while (fs.Read(b,0,b.Length) > 0)
+    {
+        string s = temp.GetString(b);
+        Console.WriteLine(s);
+        if (Regex.IsMatch(s, pattern))
+        {
+            Console.WriteLine("We Found a Data Path! ");
+        }
+    }
 }
+
+
 
 /* IPHostEntry ipHostInfo = await Dns.GetHostEntryAsync("host.contoso.com");
 IPAddress ipAddress = ipHostInfo.AddressList[0];
