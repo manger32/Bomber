@@ -12,7 +12,8 @@
     }
 }**/
 
-FileInfo existingFile = new FileInfo(@"./Try.DOCX");
+
+FileInfo existingFile = new FileInfo(@"./Try.txt");
 StreamReader newReader = existingFile.OpenText();
 while (newReader.ReadLine() != null)
 {
